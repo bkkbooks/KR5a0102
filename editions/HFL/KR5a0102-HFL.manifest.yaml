@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5a0102/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5a0102/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上昇玄消災護命妙經註
+  date: '2015-08-28 23:37:27.779814'
+  source:
+    repository: kanripo
+    path: KR5a0102
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0102_000-HFL.yaml, hash: 'sha256:76bd6132f029d49ecf43e3d8f3c7255598f743a360e9f5c8b3544a052ec7850c'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0102_000-HFL.markers.yaml, hash: 'sha256:4e39f7572fcacee330451916df95d57b9bb70f264b8c2dc694035b8bb453c54e'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0102_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 1247
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:3138961048b8fb2223b6f57131b1db93c071fe39d453e49e1ca425a9a2600216
